@@ -57,6 +57,7 @@ public interface Tax {
 ### Prerequisites
 - Java 
 - Spring Boot
+- Maven
 
 ## Steps to Run
 
@@ -73,6 +74,25 @@ cd Tax_Application_IoC
 ```
 mvn spring-boot:run
 ```
-4. Follow the on-screen prompts to choose and pay taxes.
+4. Follow the on-screen prompts to choose and pay taxes. The application will prompt the user to select Income Tax or Property Tax, enter the taxable amount, and process the payment.
+
+## Project Structure
+
+```css
+tax-collection-app
+│── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── com.example.tax
+│   │   │   │   ├── Tax.java
+│   │   │   │   ├── IncomeTax.java
+│   │   │   │   ├── PropertyTax.java
+│   │   │   │   ├── MainApplication.java
+│   │   ├── resources
+│   │   │   ├── applicationContext.xml
+│── pom.xml
+│── README.md
+```
+
 
 
