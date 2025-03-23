@@ -63,11 +63,11 @@ public interface Tax {
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone https://github.com/DivyaSreeMunagavalasa/Tax_Application_IoC.git
 ```
 2. Navigate to the project directory:
 ```   
-cd tax-collection-app
+cd Tax_Application_IoC
 ```
 3. Build and run the application:
 ```
