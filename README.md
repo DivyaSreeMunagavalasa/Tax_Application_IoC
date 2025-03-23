@@ -79,7 +79,7 @@ mvn spring-boot:run
 ## Project Structure
 
 ```css
-tax-collection-app
+Tax_Application_IoC
 │── src
 │   ├── main
 │   │   ├── java
